@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.service-section{
+    padding: 106px 0px;
+
+    .service-title-part{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h2{
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 149%;
+            margin-top: 14px;
+            max-width: 456px;
+            text-align: center;
+        }
+
+        .button-group{
+            margin-top: 40px;
+            display: flex;
+            gap: 30px;
+            align-items: stretch;
+            width: 100%;
+            justify-content: center;
+            
+
+            button{
+                font-size: 16px;
+                padding: 10px 14px;
+                background-color: #006AFF;
+                color: #fff;
+                border-radius: 40px;
+                border: none;
+                outline: none;
+                flex: 0 0 165px;
+            }
+
+            button:last-child{
+                background-color: #ffffff;
+                color: #000000;
+                border: 1px solid black;
+           
+            }
+
+
+        }
+    }
+
+
+
+
+    .service-item-part{
+        margin-top: 119px;
+        display: flex;
+        justify-content: center;
+        column-gap: 110px;
+        row-gap: 74px;
+        flex-wrap: wrap;
+
+        .service-card{
+
+            .card-title{
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                gap: 13px;
+            }
+
+            p{
+                width: 100%;
+                max-width: 245px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1.5em;
+                margin-top: 15px;
+            }
+        }
+
+
+
+    }
+
+
+
+}
+
+
+
+  @media only screen and (max-width: 576px) {
+    .service-section .service-title-part h2{
+        font-size: 40px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 450px) {
+    .service-section .service-title-part h2{
+        font-size: 30px;
+    }
+  }
+
+  
+@media only screen and (max-width: 390px) {
+    .service-section .service-title-part h2{
+        font-size: 25px;
+    }
+
+    .service-section .service-title-part .button-group{
+        margin-top: 40px;
+        display: flex;
+        gap: 30px;
+        align-items: stretch;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        
+
+        button{
+            font-size: 16px;
+            padding: 10px 14px;
+            background-color: #006AFF;
+            color: #fff;
+            border-radius: 40px;
+            border: none;
+            outline: none;
+            flex: 0 0 165px;
+        }
+
+        button:last-child{
+            background-color: #ffffff;
+            color: #000000;
+            border: 1px solid black;
+       
+        }
+
+
+    }
+  }
