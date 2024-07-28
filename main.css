@@ -40,8 +40,10 @@
   width: 100%;
   justify-content: center;
 }
-.service-section .service-title-part .button-group button {
+.service-section .service-title-part .button-group a {
   font-size: 16px;
+  text-align: center;
+  text-decoration: none;
   padding: 10px 14px;
   background-color: #006AFF;
   color: #fff;
@@ -50,7 +52,7 @@
   outline: none;
   flex: 0 0 165px;
 }
-.service-section .service-title-part .button-group button:last-child {
+.service-section .service-title-part .button-group a:last-child {
   background-color: #ffffff;
   color: #000000;
   border: 1px solid black;

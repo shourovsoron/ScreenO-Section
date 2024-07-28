@@ -45,8 +45,10 @@
             justify-content: center;
             
 
-            button{
+            a{
                 font-size: 16px;
+                text-align: center;
+                text-decoration: none;
                 padding: 10px 14px;
                 background-color: #006AFF;
                 color: #fff;
@@ -56,7 +58,7 @@
                 flex: 0 0 165px;
             }
 
-            button:last-child{
+            a:last-child{
                 background-color: #ffffff;
                 color: #000000;
                 border: 1px solid black;
